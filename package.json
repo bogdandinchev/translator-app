@@ -1,0 +1,23 @@
+{
+  "name": "translator-app",
+  "version": "1.0.0",
+  "description": "Translator app to listen for and dispatch messages in fdc3.portfolio format",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@interopio/desktop": "^6.3.1",
+    "@interopio/fdc3": "^2.2.0",
+    "@parcel/core": "^2.12.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
